@@ -30,7 +30,7 @@ public class TV extends Product{
 
     @Override
     public String toString() {
-        return super.toString() + " \nScreen Size " + screenSize +
+        return super.toString() + " \nScreen Size " + screenSize + "\"" +
                 "\nManufacturer: " + manufacture;
     }
 }

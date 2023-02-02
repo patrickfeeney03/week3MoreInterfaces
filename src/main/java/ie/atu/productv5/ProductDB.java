@@ -93,12 +93,12 @@ public class ProductDB {
             TV myTV = new TV();
             myTV.setCode(productCode);
             myTV.setDescription("What if your TV thought the way we do? That's exactly what Sony have tried to replicate" +
-                    " with the human-like Cognitive Processor XR inside this Sony A75 TV. Everything looks natural, with" +
-                    " plenty of detail and depth. It's like having a master filmmaker tweaking the picture just for you." +
-                    " As if the OLED panel wasn't enough, XR OLED Contrast Pro technology gives a further boost to the" +
-                    " colour and contrast. XR TRILUMINOS Pro recreates a wider palette of colours, delivering beautiful " +
-                    "hues, even in dark scenes. And with Acoustic Surface Audio, the screen is the speaker, making it " +
-                    "seem like the sound is coming from where the action is happening on-screen.");
+                    " \nwith the human-like Cognitive Processor XR inside this Sony A75 TV. Everything looks natural, with" +
+                    " \nplenty of detail and depth. It's like having a master filmmaker tweaking the picture just for you." +
+                    "\n As if the OLED panel wasn't enough, XR OLED Contrast Pro technology gives a further boost to the" +
+                    " \ncolour and contrast. XR TRILUMINOS Pro recreates a wider palette of colours, delivering beautiful " +
+                    "\nhues, even in dark scenes. And with Acoustic Surface Audio, the screen is the speaker, making it " +
+                    "\nseem like the sound is coming from where the action is happening on-screen.");
             myTV.setPrice(1000);
             myTV.setManufacture("Sony");
             myTV.setScreenSize(32);
@@ -107,8 +107,8 @@ public class ProductDB {
             TV myTV = new TV();
             myTV.setCode(productCode);
             myTV.setDescription("Enjoy all the content you love in the best possible resolution on the Samsung " +
-                    "UE43AU7100KXXU 43\" Smart 4K Ultra HD HDR LED TV. The Crystal 4K Processor upscales what " +
-                    "you're watching to give you the best 4K picture.\n");
+                    "\nUE43AU7100KXXU 43\" Smart 4K Ultra HD HDR LED TV. The Crystal 4K Processor upscales what " +
+                    "\nyou're watching to give you the best 4K picture.\n");
             myTV.setPrice(6000);
             myTV.setManufacture("Samsung");
             myTV.setScreenSize(40);

@@ -33,7 +33,7 @@ label
 
     @Override
     public String toString() {
-        return super.toString() + ",  by " + artist +
+        return super.toString() + "\nBy " + artist +
                 "\nPart of " + label;
         // part of the label
     }
